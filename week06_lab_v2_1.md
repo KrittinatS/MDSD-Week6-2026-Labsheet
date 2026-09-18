@@ -439,6 +439,7 @@ Future<void> updateDemoPost() async {
 
 <img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/d78e7413-3f9c-41d9-896f-690ab7d01b38" />
 
+
 ```
 ---
 
@@ -487,13 +488,17 @@ GET https://fakestoreapi.com/products
 
 ไม่ว่าจะเลือกแบบไหน เป้าหมายคือต้องเห็น **ผลลัพธ์จริงจาก Fake Store API** ปรากฏขึ้นมา  ถ้ารันแล้วเจอ error หรือโค้ดจาก Gemini ผิดพลาด (เช่น import ขาด, ชื่อ field ไม่ตรงกับ JSON จริง) ให้จดบันทึกข้อความ error และวิธีแก้ไขไว้ในด้านล่าง
 
+```text
+บันทึก error และการแก้ไขที่นี่
+```
 
+> ✅ **Checkpoint 4.2** ถ่ายภาพหน้าจอ Debug Console ที่แสดงผลลัพธ์จริงจากการเรียก `fetchAiProducts()` (เช่น รายการสินค้าที่ print ออกมา) 
+```text
+บันทึกรูปที่นี่
+```
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/8d4942fb-e127-4194-832c-70ece52e09ad" />
 
-
-
-<img width="1421" height="545" alt="image" src="https://github.com/user-attachments/assets/d10154c0-a506-46ec-acf6-7f2216ed5828" />
-
-
+---
 
 ## ส่วนที่ 5 (เพิ่มเติม/ทดลอง): เปรียบเทียบกับ Dio Package
 
