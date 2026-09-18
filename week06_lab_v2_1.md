@@ -491,6 +491,7 @@ GET https://fakestoreapi.com/products
 
 
 
+<img width="1421" height="545" alt="image" src="https://github.com/user-attachments/assets/d10154c0-a506-46ec-acf6-7f2216ed5828" />
 
 
 
