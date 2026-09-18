@@ -77,8 +77,11 @@ https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=YOUR_API_KEY&uni
 
 > ✅ **Checkpoint 1.1** ถ่ายภาพหน้าจอ Postman ที่แสดง Status Code `200` พร้อม Response Body แบบเต็ม จากนั้นให้เขียนระบุใน ว่า key ใดใน JSON ที่คาดว่าจะต้องใช้แสดงผลในแอป (เช่น ชื่อเมือง, อุณหภูมิ, คำอธิบายสภาพอากาศ)
 
-```text
-บันทึกรูปและคำตอบที่นี่
+<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/3eb9b915-541a-4054-ac69-f3a28cbefff4" />
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/b7847cd2-09b6-4177-9c9c-d537e42d244d" />
+"name" ชื่อเมือง
+"temp" อุณหภูมิ
+"description" คำอธิบายสภาพอากาศ
 ```
 ### ขั้นตอนที่ 1.2 — 🧠 คิดเอง/ออกแบบเอง
 
@@ -87,9 +90,11 @@ https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=YOUR_API_KEY&uni
 > ✅ **Checkpoint 1.2** บันทึกด้านล่างว่านักศึกษาเลือกทดสอบกรณีใด คาดการณ์ Status Code ไว้ว่าอะไร และ Status Code จริงที่ได้คืออะไร (ตรงหรือไม่ตรงกับที่คาดไว้) พร้อมอธิบายว่าผลลัพธ์ที่ได้ตรงกับช่วง Status Code ใดตามตารางในบทเรียนหัวข้อ 6.3
 
 ```text
-บันทึกรูปและคำตอบที่นี่
+คิดว่า error ไม่พบเมือง
+ผลลัพธ์ city not found
 ```
----
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/c3d48290-3c35-4651-b111-868481280026" />
+
 
 ## ส่วนที่ 2: สร้าง Model Class และเรียก API ด้วย http Package
 
